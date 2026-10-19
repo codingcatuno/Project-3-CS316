@@ -1,0 +1,13 @@
+* { box-sizing: border-box; }
+body { margin: 0; padding: 24px 12px; text-align: center; font-family: Arial, sans-serif; background: #e7f4fc; color: #16364a; }
+h1 { margin: 0 0 8px; }
+p { margin: 0 0 20px; }
+#tank { position: relative; width: min(900px, 96vw); height: 540px; margin: auto; overflow: hidden; border: 9px solid #244b67; border-radius: 16px; background: linear-gradient(to bottom, #72d9f1 0%, #1e91c0 45%, #073a70 100%); box-shadow: 0 10px 24px #0003; }
+.fish { position: absolute; width: 74px; height: 58px; object-fit: contain; cursor: pointer; z-index: 3; user-select: none; -webkit-user-drag: none; }
+.sand { position: absolute; bottom: 0; width: 100%; height: 25px; background: #dec58a; z-index: 1; }
+.plant { position: absolute; bottom: 13px; font-size: 90px; z-index: 2; pointer-events: none; }
+.plant-one { left: 9%; }
+.plant-two { right: 13%; }
+.rock { position: absolute; bottom: 15px; width: 85px; height: 42px; border-radius: 60% 60% 20% 20%; background: #637c8b; z-index: 2; pointer-events: none; }
+.rock-one { left: 27%; }
+.rock-two { right: 25%; width: 65px; height: 32px; }
